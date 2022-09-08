@@ -1,0 +1,17 @@
+entrar en root  con su-
+-----------------
+luego crear los usuarios
+useradd Mama
+useradd Papa
+useradd Erick
+---------------
+creamos el grupo casa
+groupadd casa 
+------------
+metemos los usuarios en los grupos
+adduser Mama casa
+adduser Mama Papa
+adduser Mama Erick
+-------------------------
+groupmod -g 1009 -n Familia casa
+--------------------
